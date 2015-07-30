@@ -1,9 +1,11 @@
-package com.github.xueqingxiao.shadowvpn;
+package com.github.xueqingxiao.shadowvpn.ui.main;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.github.xueqingxiao.shadowvpn.R;
 
 public class MainActivity extends AppCompatActivity {
 

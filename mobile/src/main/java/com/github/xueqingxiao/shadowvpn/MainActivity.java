@@ -1,4 +1,4 @@
-package com.github.xueqingxiao.shadowvpn_android;
+package com.github.xueqingxiao.shadowvpn;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

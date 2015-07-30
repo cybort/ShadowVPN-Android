@@ -45,10 +45,10 @@ mobile/src/main/jniLibs/armeabi/libvpn.so: jni/vpn.c jni/Android.mk
     $(ANDROID_NDK_HOME)/ndk-build || exit 1 ;\
     popd ;\
     install -d mobile/src/main/jniLibs/armeabi ;\
-    install -d app/src/main/jniLibs/armeabi-v7a ;\
-    install -d app/src/main/jniLibs/mips ;\
-    install -d app/src/main/jniLibs/x86 ;\
-    install libs/armeabi/libvpn.so app/src/main/jniLibs/armeabi ;\
-    install libs/armeabi-v7a/libvpn.so app/src/main/jniLibs/armeabi-v7a ;\
-    install libs/mips/libvpn.so app/src/main/jniLibs/mips ;\
-    install libs/x86/libvpn.so app/src/main/jniLibs/x86
+    install -d mobile/src/main/jniLibs/armeabi-v7a ;\
+    install -d mobile/src/main/jniLibs/mips ;\
+    install -d mobile/src/main/jniLibs/x86 ;\
+    install libs/armeabi/libvpn.so mobile/src/main/jniLibs/armeabi ;\
+    install libs/armeabi-v7a/libvpn.so mobile/src/main/jniLibs/armeabi-v7a ;\
+    install libs/mips/libvpn.so mobile/src/main/jniLibs/mips ;\
+    install libs/x86/libvpn.so mobile/src/main/jniLibs/x86

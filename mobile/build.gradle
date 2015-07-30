@@ -41,4 +41,5 @@ dependencies {
     compile 'io.reactivex:rxandroid:0.25.0'
     compile 'com.jakewharton.timber:timber:3.1.0'
     compile 'net.simonvt.menudrawer:menudrawer:3.0.6@aar'
+    copile 'com.fizz-buzz:fb-android-dagger:1.0.6'
 }
